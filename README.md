@@ -24,9 +24,9 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
 <details>
   <summary><h3><u>Diagramas do Projeto</h3></summary>
     <details>
-      <summary><h4><u>Diagrama de Entidade Relacionamento</u></h4></summary>
+      <summary><h4><u>**Diagrama de Entidade Relacionamento**</u></h4></summary>
       <p>
-        <image>
+        <image src="https://github.com/vinnybrito/AutoAssistant/assets/111714040/a2234be9-dde0-4fa9-9eb6-c8367a618d68"></image>
       </p>
     </details>
 </details>
