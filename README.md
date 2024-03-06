@@ -1,5 +1,6 @@
 <p align="center">
-  ![AutoAssitance - Copia](https://github.com/vinnybrito/AutoAssistant/assets/111714040/6035e404-bdc3-4760-8853-b4d406c0b165)
+  <image src="https://github.com/vinnybrito/AutoAssistant/assets/111714040/6035e404-bdc3-4760-8853-b4d406c0b165"></image>
+
 </p>
 
 
