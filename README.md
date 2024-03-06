@@ -1,4 +1,7 @@
-![AutoAssitance - Copia](https://github.com/vinnybrito/AutoAssistant/assets/111714040/6035e404-bdc3-4760-8853-b4d406c0b165)
+<p align="center">
+  ![AutoAssitance - Copia](https://github.com/vinnybrito/AutoAssistant/assets/111714040/6035e404-bdc3-4760-8853-b4d406c0b165)
+</p>
+
 
 # AutoAssistant - Challenge (FIAP & LEVEL GROUP)
 
@@ -17,6 +20,8 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
   <summary><h3><u>Escopo do Produto</h3></summary>
   <details>
     <summary><h4><u>Justificativa</u></h4></summary>
+    <em>Quem vai se beneficiar com a nossa solução?</em>
+    <p>O AutoAssistence é um sistema que tem como objetivo realizar a automação do envio de pedido de cotação de compras para os fornecedores. Nosso objetivo é ajudar a auatomatizar o processo manual realizado pelos compradores para que les possa tem mais agilidade na hora de realziar combranças para cada forncedor. Os compradores vão ser beneficiados por adquirir uma ferramenta personalizada, sem a necessidade de atividades manuais dos fornecedore. </p>
   </details>
   
 </details>
@@ -24,7 +29,7 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
 <details>
   <summary><h3><u>Diagramas do Projeto</h3></summary>
     <details>
-      <summary><h4><u>**Diagrama de Entidade Relacionamento**</u></h4></summary>
+      <summary><h4><u>Diagrama de Entidade Relacionamento</u></h4></summary>
       <p>
         <image src="https://github.com/vinnybrito/AutoAssistant/assets/111714040/a2234be9-dde0-4fa9-9eb6-c8367a618d68"></image>
       </p>
