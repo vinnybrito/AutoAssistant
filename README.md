@@ -21,11 +21,8 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
   <summary>
     <h3>Escopo do Produto</h3>
   </summary>
-  
-  <details>
-    <summary>
-      <h4>Justificativa</h4>
-    </summary>
+
+  <h4>Justificativa</h4>
     <p>
           Encontrar um bom fornecedor e escolher os produtos e serviços certos no 
       mercado pode ser um verdadeiro desafio para quem faz compras em nome de 
@@ -50,7 +47,7 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
   <summary>
     <h3>Diagramas do Projeto</h3>
   </summary>
-    <h1>Diagrama de Entidade Relacionamento</h1>
+    <h4>Diagrama de Entidade Relacionamento</h4>
       <p align="center">
         <image src="https://github.com/vinnybrito/AutoAssistant/assets/111714040/a2234be9-dde0-4fa9-9eb6-c8367a618d68"></image>
       </p>
