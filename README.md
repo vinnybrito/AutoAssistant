@@ -18,21 +18,42 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
 
 
 <details>
-  <summary><h3><u>Escopo do Produto</h3></summary>
+  <summary>
+    <h3>Escopo do Produto</h3>
+  </summary>
+  
   <details>
-    <summary><h4><u>Justificativa</u></h4></summary>
-    <em>Quem vai se beneficiar com a nossa solução?</em>
-    <p>O AutoAssistence é um sistema que tem como objetivo realizar a automação do envio de pedido de cotação de compras para os fornecedores. Nosso objetivo é ajudar a auatomatizar o processo manual realizado pelos compradores para que les possa tem mais agilidade na hora de realziar combranças para cada forncedor. Os compradores vão ser beneficiados por adquirir uma ferramenta personalizada, sem a necessidade de atividades manuais dos fornecedore. </p>
+    <summary>
+      <h4>Justificativa</h4>
+    </summary>
+    <p>
+          Encontrar um bom fornecedor e escolher os produtos e serviços certos no 
+      mercado pode ser um verdadeiro desafio para quem faz compras em nome de 
+      uma empresa. A tarefa exige cuidado e atenção, especialmente quando se trata 
+      de compras de alto valor ou itens com necessidades específicas.
+          O mercado grande e vasto, com inúmeras opções disponíveis, possuí uma
+      gama de escolhas que pode tornar a decisão um pouco mais difícil. Além disso, os 
+      preços variam significativamente entre os fornecedores, o que torna a busca pela 
+      melhor oferta um desafio em si. É importante equilibrar qualidade e custo, o que 
+      nem sempre é simples, especialmente quando a qualidade do que está sendo 
+      comprado é incerta.
+          Se a empresa precisa de produtos ou serviços altamente específicos, 
+      encontrar um fornecedor que atenda a essas necessidades pode ser uma tarefa 
+      adicional. Por fim, a reputação dos fornecedores é uma preocupação constante, 
+      pois é vital garantir que entreguem o que prometem.
+    <p/>
   </details>
   
 </details>
 
 <details>
-  <summary><h3><u>Diagramas do Projeto</h3></summary>
-    <details>
-      <summary><h4><u>Diagrama de Entidade Relacionamento</u></h4></summary>
-      <p>
+  <summary>
+    <h3>Diagramas do Projeto</h3>
+  </summary>
+    <h1>Diagrama de Entidade Relacionamento</h1>
+      <p align="center">
         <image src="https://github.com/vinnybrito/AutoAssistant/assets/111714040/a2234be9-dde0-4fa9-9eb6-c8367a618d68"></image>
       </p>
-    </details>
+
+  <h1>Diagrama de Classes</h1>
 </details>
