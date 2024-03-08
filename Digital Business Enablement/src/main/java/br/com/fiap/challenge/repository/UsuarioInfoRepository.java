@@ -4,6 +4,4 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.fiap.challenge.model.UsuarioInfo;
 
-public interface UsuarioInfoRepository extends JpaRepository<UsuarioInfo, Long>{
-    
-}
+public interface UsuarioInfoRepository extends JpaRepository<UsuarioInfo, Long> { }

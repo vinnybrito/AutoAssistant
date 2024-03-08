@@ -64,11 +64,9 @@ public class FornecedorController {
         return ResponseEntity.ok(fornecedor);
     }
 
-
     private Fornecedor getFornecedorById(Long id){
         return repository.findById(id).orElseThrow(() -> { 
                 return new RuntimeException();
             });
         }
-    
 }
