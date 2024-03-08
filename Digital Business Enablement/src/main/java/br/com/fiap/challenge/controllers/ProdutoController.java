@@ -55,7 +55,7 @@ public class ProdutoController {
 
     @PutMapping("/produto/{id}")
     public ResponseEntity<Produto> update(@PathVariable Long id, @RequestBody Produto produto){
-        log.info("Atualizando dados do aluno com id " + id);
+        log.info("Atualizando dados do produto com id " + id);
         getProdutoById(id);
         produto.setId(id);
         repository.save(produto);

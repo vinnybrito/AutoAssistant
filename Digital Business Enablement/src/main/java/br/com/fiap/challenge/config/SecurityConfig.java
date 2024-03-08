@@ -13,5 +13,31 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @Configuration
 public class SecurityConfig {
+
+    @Autowired
+	AuthenticationFilter authenticationFilter;
+
+	@Bean
+	SecurityFilterChain web(HttpSecurity http) throws Exception {
+		http
+				.authorizeHttpRequests((authorize) -> authorize
+						.requestMatchers("/login", "/usuario").permitAll()
+						.anyRequest().authenticated())
+				.csrf(csrf -> csrf.disable())
+				.addFilterBefore(authenticationFilter, UsernamePasswordAuthenticationFilter.class)
+				;
+
+		return http.build();
+	}
+
+	@Bean
+	public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception{
+		return config.getAuthenticationManager();
+	}
+
+	@Bean
+	public PasswordEncoder passwordEncoder(){
+		return new BCryptPasswordEncoder();
+	}
     
 }

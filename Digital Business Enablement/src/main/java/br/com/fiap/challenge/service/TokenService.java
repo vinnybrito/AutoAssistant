@@ -22,7 +22,7 @@ public class TokenService {
     public Token generateToken(String email){
         Algorithm alg = Algorithm.HMAC512("meusecretsupersecreto");
         var jwt = JWT.create()
-            .withIssuer("moneyrench")
+            .withIssuer("autoassistant")
             .withSubject(email)
             .withExpiresAt(Instant.now().plus(10, ChronoUnit.MINUTES))
             .sign(alg);
@@ -34,7 +34,7 @@ public class TokenService {
     public Usuario validateToken(String token){
         Algorithm alg = Algorithm.HMAC512("meusecretsupersecreto");
         String email = JWT.require(alg)
-            .withIssuer("moneyrench")
+            .withIssuer("autoassistant")
             .build()
             .verify(token)
             .getSubject()

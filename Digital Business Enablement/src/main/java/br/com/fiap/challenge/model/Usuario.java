@@ -29,7 +29,6 @@ public class Usuario implements UserDetails{
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank
     private String nome;
 
     @Email @NotBlank
