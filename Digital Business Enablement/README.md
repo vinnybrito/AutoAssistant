@@ -36,7 +36,7 @@ requisitos.
 
 ### `Usuario Info`
 
-A classe `Usuario` contém informações detalhadas sobre os usuario da plataforma.
+A classe `Usuario info` contém informações detalhadas sobre os usuario da plataforma.
 
 **Atributos:**
 
