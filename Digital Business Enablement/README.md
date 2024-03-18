@@ -34,9 +34,9 @@ requisitos.
 
 ## Classes
 
-### `Usuario`
+### `Usuario Info`
 
-A classe `Usuario` contém informações detalhadas sobre os usuario da plataforma.
+A classe `Usuario info` contém informações detalhadas sobre os usuario da plataforma.
 
 **Atributos:**
 
@@ -45,8 +45,6 @@ A classe `Usuario` contém informações detalhadas sobre os usuario da platafor
 - `cpf`: O CPF do usuario.
   
 - `nome`: O nome completo da empresa usuario.
-
-- `email`: O email completo do usuario.
   
 - `cep`: O CEP (Código de Endereçamento Postal) do endereço do usuario.
   
@@ -112,9 +110,9 @@ A classe `compra` contém informações detalhadas sobre as compras dos items.
 
 ## Métodos GET
 
-- `GET /usuario`: Retorna uma lista de todos os usuario.
+- `GET /usuarioinfo`: Retorna uma lista de todos os usuario.
   
-- `GET /usuario/{id}`: Retorna detalhes sobre um usuario específico com base no ID.
+- `GET /usuarioinfo/{id}`: Retorna detalhes sobre um usuario específico com base no ID.
 
 - `GET /fornecedores`: Retorna uma lista de todos os fornecedores.
   
@@ -130,7 +128,7 @@ A classe `compra` contém informações detalhadas sobre as compras dos items.
 
 ## Métodos Post
   
-- `POST /usuario`: Cria um novo usuario com base nos dados fornecidos.
+- `POST /usuarioinfo`: Cria um novo usuario com base nos dados fornecidos.
 
 - `POST /fornecedores`: Cria um novo fornecedor com base nos dados fornecidos.
 
@@ -140,7 +138,7 @@ A classe `compra` contém informações detalhadas sobre as compras dos items.
 
 ## Métodos PUT
   
-- `PUT /usuario/{id}`: Atualiza os detalhes de um usuario existente com base no ID.
+- `PUT /usuarioinfo/{id}`: Atualiza os detalhes de um usuario existente com base no ID.
 
 - `PUT /fornecedores/{id}`: Atualiza os detalhes de um fornecedor existente com base no ID.
 
@@ -150,7 +148,7 @@ A classe `compra` contém informações detalhadas sobre as compras dos items.
 
 ## Métodos DELETE
   
-- `DELETE /usuario/{id}`: Exclui um usuario com base no ID.
+- `DELETE /usuarioinfo/{id}`: Exclui um usuario com base no ID.
   
 - `DELETE /fornecedores/{id}`: Exclui um fornecedor com base no ID.
   
@@ -169,7 +167,6 @@ Aqui está um exemplo da estrutura JSON representando as informações do `usuar
     "id": "Long",
     "cpf": "String",
     "nome": "String",
-    "email": "String",
     "cep": "String",
     "numero": "Int",
     "complemento": "String",

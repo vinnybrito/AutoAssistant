@@ -1,4 +1,4 @@
-package br.com.fiap.challenge.config;
+/*package br.com.fiap.challenge.config;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -36,11 +36,12 @@ public class DatabaseSeeder implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        Fornecedor fornecedor1 = new Fornecedor(null, "Fornecedor 1", "12345678901234", "123456789", "Bom");
-        Fornecedor fornecedor2 = new Fornecedor(null, "Fornecedor 2", "56789012345678", "987654321", "Ótimo");
 
         Produto produto1 = new Produto(null, "Produto 1", "Descrição do Produto 1", 50.0, "Boa", "Entrega em até 7 dias", 10);
         Produto produto2 = new Produto(null, "Produto 2", "Descrição do Produto 2", 100.0, "Excelente", "Entrega em até 3 dias", 5);
+
+        Fornecedor fornecedor1 = new Fornecedor(null, "Fornecedor 1", "12345678901234", "123456789", "Bom", produto1);
+        Fornecedor fornecedor2 = new Fornecedor(null, "Fornecedor 2", "56789012345678", "987654321", "Ótimo", produto2);
 
         UsuarioInfo usuario1 = new UsuarioInfo(null, "12345678901", "Usuário 1", 
                 "12345678", 123, "Complemento 1", "Rua A", "987654321");
@@ -55,4 +56,4 @@ public class DatabaseSeeder implements CommandLineRunner {
         usuarioRepository.saveAll(List.of(usuario1, usuario2));
         compraRepository.saveAll(List.of(compra1, compra2));
     }
-}
+}*/
