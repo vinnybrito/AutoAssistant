@@ -44,8 +44,6 @@ A classe `Usuario info` contém informações detalhadas sobre os usuario da pla
 
 - `cpf`: O CPF do usuario.
   
-- `nome`: O nome completo da empresa usuario.
-  
 - `cep`: O CEP (Código de Endereçamento Postal) do endereço do usuario.
   
 - `numero`: O número do local da usuario.
@@ -160,13 +158,12 @@ Lembre-se de incluir os parâmetros necessários na sua solicitação para obter
 
 ## Exemplo JSON
 
-Aqui está um exemplo da estrutura JSON representando as informações do `usuario`:
+Aqui está um exemplo da estrutura JSON representando as informações do `usuario info`:
 
 ```json
 {
     "id": "Long",
     "cpf": "String",
-    "nome": "String",
     "cep": "String",
     "numero": "Int",
     "complemento": "String",
@@ -208,6 +205,18 @@ Aqui está um exemplo da estrutura JSON representando as informações da `compr
     "valor_total": "double",
     "Data": "LocalDate(YYYY-MM-DD)",
     "cod_contrato": "int"
+}
+
+```
+
+Aqui está um exemplo da estrutura JSON representando as informações da `usuario`:
+
+```json
+{
+    "id": "long",
+    "nome": "string",
+    "email": "string",
+    "senha": "string",
 }
 
 ```
