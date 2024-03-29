@@ -24,7 +24,7 @@ public class TokenService {
         var jwt = JWT.create()
             .withIssuer("autoassistant")
             .withSubject(email)
-            .withExpiresAt(Instant.now().plus(10, ChronoUnit.MINUTES))
+            .withExpiresAt(Instant.now().plus(30, ChronoUnit.DAYS))
             .sign(alg);
 
         return new Token(jwt, "JWT", "Bearer");

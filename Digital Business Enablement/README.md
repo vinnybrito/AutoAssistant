@@ -233,3 +233,10 @@ Aqui está um exemplo da estrutura JSON representando as informações da `usuar
 ## Diagrama de arquitetura macro
 
 ![Arquitetura](https://raw.githubusercontent.com/GustavoFIAP96687/Challenge-Digital-Business/master/img/Arquitetura.png)
+
+## Como testar
+
+- 1: No postman ou insomnia importe o arquivo JSON, exixtem 2 um para testar local e outro na azure.
+- 2: Com o arquivo importado faça o cadastro do usuario.
+- 3: Faça o login do usuario, ira gerar um token como retorno.
+- 4: Em todas as outras requisições sera necessario ativar a autenticação, ative a `Bearer token`, e cole o token em todas elas, a partir disso você tera acesso as requisições.
