@@ -7,23 +7,24 @@ Gustavo Santos Nascimento          RM: 96687
 Vinícius Almeida Kotchetkoff       RM: 96331
 Vinicius Rodrigues Brito           RM: 97473
 William Mendes Vulcano             RM: 96939
-.
-.
-.
-.
-
----------------------------------------------
-Link de acesso à página do 
-projeto da WEB/internet
----------------------------------------------
 
 
 ---------------------------------------------
-Link do Repositório - GitHub
+
+LINK DE ACESSO A PÁGINA DO PROJETO 
+.
+.
+Link: https://dev.azure.com/RM97473/AutoAssistant
+
+
 ---------------------------------------------
 
+LINK DO REPOSITÓRIO NO GITHUB
+.
+.
 Link: https://github.com/vinnybrito/AutoAssistant
 
+---------------------------------------------
 
 
 
