@@ -37,7 +37,7 @@ com o intuito de auxiliar os compradores durante o procesos de cotação de comp
           Se a empresa precisa de produtos ou serviços altamente específicos, 
       encontrar um fornecedor que atenda a essas necessidades pode ser uma tarefa 
       adicional. Por fim, a reputação dos fornecedores é uma preocupação constante, 
-      pois é vital garantir que entreguem o que prometem.
+      pois é vital garantir que entreguem o que prometem;
     <p/>
   </details>
   
