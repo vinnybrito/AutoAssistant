@@ -12,26 +12,11 @@ William Mendes Vulcano             RM: 96939
 ---------------------------------------------
 
 LINK DE ACESSO A PÁGINA DO PROJETO 
-.
-.
-Link: https://dev.azure.com/RM97473/AutoAssistant
-
+https://dev.azure.com/RM97473/AutoAssistant
 
 ---------------------------------------------
 
 LINK DO REPOSITÓRIO NO GITHUB
-.
-.
-Link: https://github.com/vinnybrito/AutoAssistant
+https://github.com/vinnybrito/AutoAssistant
 
 ---------------------------------------------
-
-
-
-
-
-
-
-
-
-
